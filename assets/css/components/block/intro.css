@@ -4,11 +4,9 @@
     position    : relative;
 }
 #intro--container ,
-#skills--container > img,
 #intro--container > img{
     width   : 100%;
 }
-#skills--container > img,
 #intro--container > img{
     height      : 100%;
     position    : absolute;
