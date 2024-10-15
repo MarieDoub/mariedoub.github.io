@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+}
+
+#intro--container {
+    padding     : 25px 0 ;
+    height      : fit-content;
+    position    : relative;
+}
+#intro--container ,
+#intro--container > img{
+    width   : 100%;
+}
+#intro--container > img{
+    height      : 100%;
+    position    : absolute;
+    top         : 0;
+    left        : 0;
+    z-index     : -1;
+}
+#intro--container div.text--container > h1,
+#intro--container > div.text--container{
+    word-break: break-word;
+
+}
+#intro--container > div.text--container{
+    margin  : 125px auto 0 auto;
+    width   : 90%;
+}
+
+@media screen and (min-width:750px) {
+    #intro--container div.text--container > h1{
+        font-size: 40px;
+    }
+    #intro--container div.text--container > div{
+        font-size: 22px;
+    }
+
+
+    #intro--container > div.text--container {
+        width   : 80%;
+    }
+}
+
+@media screen and (min-width:991px) {
+    #intro--container {
+        height: 100vh;
+    }
+    #intro--container div.text--container > h1{
+        font-size: 45px;
+    }
+    #intro--container div.text--container > div{
+        font-size: 25px;
+    }
+    #intro--container > div.text--container {
+        margin  : 200px auto 0 auto;
+        width   : 70%;
+    }
+}
+@media screen and (min-width:1280px) {
+
+
+    #intro--container div.text--container > h1{
+        font-size: 55px;
+    }
+    #intro--container div.text--container > div{
+        font-size: 30px;
+    }
+}
